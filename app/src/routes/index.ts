@@ -219,6 +219,7 @@ export const routes: Route[] = [
         redirect: 'system/about',
         meta: {
           icon: InfoCircleOutlined,
+          hiddenInSidebar: true,
         },
         children: [{
           path: 'about',
